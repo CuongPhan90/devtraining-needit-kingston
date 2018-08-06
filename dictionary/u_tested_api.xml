@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Tested API" max_length="40" name="u_tested_api" type="collection">
+        <element attributes="import_attribute_name=u_tem_number,edge_encryption_enabled=true" label="tem_number" max_length="40" name="u_tem_number" type="string"/>
+        <element attributes="import_attribute_name=u_tem_requested_for,edge_encryption_enabled=true" label="tem_requested_for" max_length="40" name="u_tem_requested_for" type="string"/>
+        <element attributes="import_attribute_name=u_tem_when_needed,edge_encryption_enabled=true" label="tem_when_needed" max_length="40" name="u_tem_when_needed" type="string"/>
+    </element>
+</database>
